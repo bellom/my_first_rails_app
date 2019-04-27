@@ -5,6 +5,7 @@ class CarsController < ApplicationController
   # GET /cars.json
   def index
     @cars = Car.all
+    # render html: 'hello, world'
   end
 
   # GET /cars/1
